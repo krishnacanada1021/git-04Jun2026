@@ -1,2 +1,3 @@
 form 1: username
 form 1: password 
+form1 : DOB
