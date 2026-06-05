@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
 
     environment:
-      name: ${{ github.ref_name == 'ref/heads/release/dev'}}
+      name: ${{ github.ref_name == 'refs/heads/release/dev'}}
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
